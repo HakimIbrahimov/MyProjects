@@ -1,0 +1,123 @@
+body{
+    /* background-image: url("a1.jpg");     */
+    background-color: rgb(200, 225, 241);
+}
+.header-logo{
+    font-size: 40px;
+display: block;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+width: 100%; 
+height: 3vh;
+background-color: none;
+display: flex;
+justify-content: space-evenly;
+}
+.nav a{
+    color: red;
+    text-decoration: underline;
+    font-size: 30px;
+transition: transform 4s; 
+transition-timing-function: linear;
+}
+.nav a:hover{
+    color: black;
+    transition-delay: 0.2s;
+    transform: rotate(-90deg);
+}
+.but{
+    color: rgb(172, 182, 27);
+background-color: rgb(240, 13, 13);
+font-size: 25px;
+border-radius: 50%;
+ transition: transform 2s;  
+transition-timing-function: linear;
+}
+.but:hover{
+color: rgb(235, 21, 21);
+background-color: rgb(175, 202, 24);
+transition-delay: 0.2s;
+transform: rotate(90deg);
+}
+.card{
+width: 1000px;
+margin: 0 auto;
+padding: 20px;
+border: 5px solid none;
+}
+.card-photo{
+width: 200px;
+height: 280px;
+display: block;
+margin: 0 auto;
+}
+.card-name{
+text-align: center;
+font-size: 30px;
+color: blueviolet;
+}
+.card-sub{
+font-size: 25px;
+padding: 0;
+list-style-position: inside;
+}
+.s{
+    color: blue;
+}
+.h{
+    color: black;
+}
+.a{
+    color: gold;
+}
+.card-f{
+    font-size: 25px;
+    
+}
+.card-k{
+font-size: 25px;
+color: red;
+}
+.card-n{
+font-size: 25px;
+color: coral;
+font-family:fantasy -apple-system,;
+
+}
+.card-t{
+    font-size: 25px;
+    
+}
+
+.qutu1{
+font-size: 20px;
+border: 5px solid none;
+}
+.qutu2{
+    font-size: 20px;
+    border: 5px solid none;
+}
+.qutu3{
+    font-size: 20px;
+    border: 5px solid none;
+}
+.qutu4{
+    font-size: 20px;
+    border: 5px solid none;
+}
+.foot{
+    display: flex;
+    font-size: 25px;
+    justify-content: flex-start;
+}
+.qutu{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.card .card-photo, h1{
+    margin-right: 75%;
+}
